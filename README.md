@@ -21,21 +21,6 @@ Transformed salary range into average
 
 Split country and industry fields
 
-# 📊 Dashboard Preview
-
-📌 Visuals
-KPI Cards: Survey count, Average age
-
-Bar Chart: Avg. salary by job title
-
-Column Chart: Favorite programming languages
-
-Treemap: Respondents by country
-
-Gauge Charts: Satisfaction (Salary & Work-Life Balance)
-
-Donut Chart: Entry difficulty in data field
-
 # ✅ Key Insights
 Python is the top language
 
