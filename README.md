@@ -1,69 +1,55 @@
-📊 Data Professional Survey Breakdown | Power BI
+# 📊 Data Professional Survey Breakdown | Power BI
+# 📝 Description
+An interactive dashboard built in Power BI using survey responses from 630 data professionals. Cleaned and transformed data in Power Query to visualize trends in job roles, average salary, favorite languages, satisfaction, and industry entry difficulty.
 
-📝 Description
-This project presents a professionally designed single-page interactive dashboard built using Power BI, based on survey data from 630 data professionals. The dataset was cleaned and transformed using Power Query (trimming, splitting, and type conversion). The dashboard visualizes insights around job roles, salary trends, preferred programming languages, satisfaction levels, and perceived difficulty in entering the data field.
+#🔧 Tools & Skills
+Power BI · Power Query · DAX · Data Cleaning · Data Visualization
 
-🔧 Tools & Concepts
-Power BI, Power Query Editor, DAX,
-Card KPIs · Bar & Column Charts · Treemap · Pie Chart · Gauge Visuals · Slicers
+#📁 Dataset
+630 responses
 
-🗂️ Dataset Overview
-Responses: 630
+Format: CSV → Excel
 
-Source: Online survey across LinkedIn, Twitter, and other platforms
+28 columns including roles, salary, preferences, age, country
 
-Format: CSV (converted to Excel)
+#🔄 Key Cleaning Steps
+Removed metadata (e.g., browser, city)
 
-Columns: 28 (role, salary, age, preferences, etc.)
+Cleaned text columns (role, language)
 
-🔄 Data Cleaning Highlights
-Removed metadata fields (Browser, OS, Referrer, etc.)
+Transformed salary range into average
 
-Cleaned role/language columns by removing prefixes
+Split country and industry fields
 
-Transformed salary ranges into numerical averages
+#📊 Dashboard Preview
 
-Split and cleaned Country and Industry columns
+📌 Visuals
+KPI Cards: Survey count, Average age
 
-Finalized dataset using “Close & Apply” in Power BI
+Bar Chart: Avg. salary by job title
 
-📊 Dashboard Preview
+Column Chart: Favorite programming languages
 
+Treemap: Respondents by country
 
-🧩 Key Visuals
-KPI Cards: Total survey takers (630), Average age (29.87)
+Gauge Charts: Satisfaction (Salary & Work-Life Balance)
 
-Bar Chart: Average salary by job title (highest – Data Scientist: $94K)
+Donut Chart: Entry difficulty in data field
 
-Column Chart: Most popular programming languages (Python tops the list)
+#✅ Key Insights
+Python is the top language
 
-Treemap: Country-wise distribution (US, UK, India, Canada, etc.)
+Data Scientists earn the most
 
-Gauge Charts:
-
-Work-Life Balance Satisfaction: 5.74 / 10
-
-Salary Satisfaction: 4.27 / 10
-
-Donut Chart: Entry difficulty in data roles (majority find it “Neutral”)
-
-✅ Key Insights
-Data Scientist roles offer the highest average salary
-
-Python is the most preferred programming language
-
-Majority of professionals find it moderately difficult to break into the field
+Entry to data roles seen as moderately difficult
 
 Work-life balance scores higher than salary satisfaction
 
-📥 How to Use
+#📥 How to Use
 Open the .pbix file in Power BI Desktop
 
 Interact with filters and visuals to explore insights
 
-Use slicers to view segmented data (if applicable)
-
-👤 Author
+#👤 Author
 Shruti Walunj
-📍 Pune, India
-🔗 LinkedIn
+
