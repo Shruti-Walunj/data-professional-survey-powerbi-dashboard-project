@@ -1,40 +1,40 @@
-# 📊 Data Professional Survey Breakdown | Power BI
-# 📝 Description
-An interactive dashboard built in Power BI using survey responses from 630 data professionals. Cleaned and transformed data in Power Query to visualize trends in job roles, average salary, favorite languages, satisfaction, and industry entry difficulty.
+# 📊 Data Professional Survey Breakdown Dashboard Using Power BI
 
-# 🔧 Tools & Skills
-Power BI · Power Query · DAX · Data Cleaning · Data Visualization
+# 📝 Description:
+Built an interactive Power BI dashboard to analyze responses from 630 data professionals across the globe. The project aimed to uncover trends in salaries, job titles, tools, satisfaction levels, and career entry difficulty, using Power BI for data cleaning, transformation, and visualization.
 
-# 📁 Dataset
-630 responses
+# 🛠️ Key Tasks:
+Cleaned and transformed raw CSV data (28 columns, 630 responses) using Power Query
 
-Format: CSV → Excel
 
-28 columns including roles, salary, preferences, age, country
+Standardized inconsistent job titles, salary formats, and categorical values
 
-# 🔄 Key Cleaning Steps
-Removed metadata (e.g., browser, city)
 
-Cleaned text columns (role, language)
+Created a calculated column for average salary from salary ranges
 
-Transformed salary range into average
 
-Split country and industry fields
+Designed 8 visuals, including bar charts, gauges, cards, pie chart, and treemap
 
-# ✅ Key Insights
-Python is the top language
 
-Data Scientists earn the most
+Developed an end-to-end dashboard summarizing key insights on careers in data
 
-Entry to data roles seen as moderately difficult
+# 📊Insights:
+Data Scientist had the highest average salary: $94K
 
-Work-life balance scores higher than salary satisfaction
 
-# 📥 How to Use
-Open the .pbix file in Power BI Desktop
+Average age of professionals: 29.87 years
 
-Interact with filters and visuals to explore insights
+
+Python ranked as the most popular programming language
+
+
+Work-life balance scored 5.74/10, but salary satisfaction was low at 4.27/10
+
+
+42.7% found it neither easy nor difficult to break into data
+
+# 🧠 Skills & Tools:
+Power BI | Power Query | DAX | Data Cleaning | Dashboard Design 
 
 # 👤 Author
 Shruti Walunj
-
